@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
+  photosTitle = 'Nature Porn Here!';
   image1 = 'assets/img/1.jpg';
   image2 = 'assets/img/2.jpg';
   image3 = 'assets/img/3.jpg';
