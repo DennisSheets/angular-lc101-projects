@@ -2,50 +2,58 @@ html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h1 {
-    font-size: 36pt;
-}
+    body {  
+        text-align: center;  
+        color: white;
+        background-image: url(assets/img/background1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
-h3 {
-    font-size: 20pt;
-    text-align: center;
-}
- 
-li {
-    font-size: 14pt;
-}
+        h1 {
+            font-size: 36pt;
+        }
 
-body {    
-    color: white;
-    background-image: url(assets/img/background1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+        h3 {
+            font-size: 20pt;
+            text-align: center;
+        }
+        
+        li {
+            font-size: 14pt;
+        }
+
+        img {
+            width: 250px;
+            padding: 15px;
+        }
 
 
-.container {
+        .container {
+            background-color: darkblue;
+        }
 
-    text-align: center;
-    border: 2px;
-}
+        .row {
+            background-color: aqua;
+        }
+        
+        .col-3 {
+            text-align: left;
+            background-color: blueviolet;
+        }
 
-.row {
-    align-items: inherit;
-    border: inherit;
-}
- 
-.col-3 {
-    text-align: left;
-}
+        .fav {
+            background-color: brown;
+        }
 
-.gif {
-    align-items: inherit;
-    width:10%;
-    height:0;
-    
-}
+        .giffy {
+            background-color: chartreuse;
+        }
 
-img {
-    width: 250px;
-    padding: 15px;
-}
+        .gif {
+            width:10%;
+            height:0;
+            
+        }
+
+
