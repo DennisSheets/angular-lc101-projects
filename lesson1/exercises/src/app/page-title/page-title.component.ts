@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class PageTitleComponent implements OnInit {
 
   constructor() { }
-  title: "string";
+  title = "Angular: Lesson #1";
   ngOnInit() {
   }
 

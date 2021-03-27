@@ -11,6 +11,7 @@ export class FavPhotosComponent implements OnInit {
   image2 = 'assets/img/2.jpg';
   image3 = 'assets/img/3.jpg';
   image4 = 'assets/img/4.jpg';
+  image5 = 'https://giphy.com/embed/QNFhOolVeCzPQ2Mx85'
   constructor() { }
 
   ngOnInit() {

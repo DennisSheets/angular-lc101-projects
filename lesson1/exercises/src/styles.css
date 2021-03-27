@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+h3 {
+    font-size: 20pt;
+    text-align: center;
+}
+ 
+li {
+    font-size: 14pt;
+}
+
+body {    
+    color: white;
+    background-image: url(assets/img/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container {
+
+    text-align: center;
+    border: 2px;
+}
+
+.row {
+    align-items: inherit;
+    border: inherit;
+}
+ 
+.col-3 {
+    text-align: left;
+}
+
+.gif {
+    align-items: inherit;
+    width:10%;
+    height:0;
+    
+}
+
+img {
+    width: 250px;
+    padding: 15px;
+}
