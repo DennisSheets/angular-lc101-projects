@@ -2,4 +2,20 @@ h1 {
     text-align: center;
     color: #354a5f;
     text-decoration: underline;
- }
+    padding: 1em;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.col-4{
+    order: 4;
+    align-self: auto;
+}

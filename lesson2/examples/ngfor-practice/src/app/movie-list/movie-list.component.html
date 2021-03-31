@@ -1,7 +1,33 @@
-<div class='movies'>
+<div class='movies' *ngIf ="movies.length > 3"> <!-- ngIf  with an else-->
     <h3>Movies to Watch</h3>
     <ol>
         <li *ngFor = 'let movie of movies'>{{movie}}</li>
     </ol>
 </div>
 
+
+
+<div class='movies' *ngIf ="movies.length > 8; else needMoreMovies"> <!-- ngIf with else-->
+    <h3>Movies to Watch</h3>
+    <ol>
+       <li *ngFor ="let movie of movies">{{movie}}</li>
+    </ol>
+ </div>
+ 
+ <ng-template #needMoreMovies> <!-- needMoreMovies is the else-->
+    <div class='movies'>
+       <h3>Not Enough Movies!</h3>
+       <p>You only have {{movies.length}} movies on your watch list!</p>
+       <p>What's up with that?</p>
+       <p>You need to purchase expensive popcorn more often.</p>
+    </div>
+ </ng-template>
+
+
+
+ <div class='movies' *ngFor ="let movie of movies" >  <!-- ngFor in the div-->
+   <h3>Movies to Watch</h3>
+   <ul>
+      <li >{{movie}}</li>
+   </ul>
+</div>
