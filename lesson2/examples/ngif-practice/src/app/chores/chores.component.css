@@ -6,7 +6,16 @@
     color: #3c79b8;
 }
 
-h3 {
+.harder {
+    font-size: 48pt;
+    text-align: center;
+    color: darkmagenta;
+}
+.treat {
+    color: green;
+}
+
+h1,h3 {
     text-align: center;
 }
 
