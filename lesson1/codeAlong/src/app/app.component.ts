@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Welcome to My Project';
   other = "this is just a little more";
+  arr = ["thing","stuff","widget"]
 }
