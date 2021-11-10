@@ -28,6 +28,6 @@
  <div class='movies' *ngFor ="let movie of movies" >  <!-- ngFor in the div-->
    <h3>Movies to Watch</h3>
    <ul>
-      <li >{{movie}}</li>
+      <li *ngFor= 'movie of movies'>{{movie}}</li>
    </ul>
 </div>
