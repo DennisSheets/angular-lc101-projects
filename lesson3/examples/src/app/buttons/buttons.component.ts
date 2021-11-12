@@ -11,6 +11,7 @@ export class ButtonsComponent implements OnInit {
    inactiveGold: boolean = false;
    inactiveSilver: boolean = false;
    inactiveCopper: boolean = false;
+   inactiveButton: boolean = false;
    constructor() { }
 
    ngOnInit() { }
@@ -28,3 +29,4 @@ export class ButtonsComponent implements OnInit {
    }
 
 }
+ 

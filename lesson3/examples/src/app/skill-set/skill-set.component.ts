@@ -10,9 +10,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 export class SkillSetComponent implements OnInit {
    listHeading: string = 'Some Coding Skills I Know';
    skills: string[] = ['Loopss', 'Conditionals', 'Functions', 'Classes', 'Modules', 'Git', 'HTML/CSS'];
-   alternateColor: string = 'purple';
+   alternateColor: string = 'pink';
    bulletType: string = 'a';
-   changeColor: boolean = false;
+   changeColor: boolean = true;
+   changeFontSize: string = '12px';
   
 
    constructor() { }
